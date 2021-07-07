@@ -5,7 +5,7 @@ namespace MaximumProblemUsingGenerics1
    public  class FindMaximumAmongThree
     {
        
-            public float FindMaximumFloat(float first, float second, float third)
+            public string FindMaximumString(string first, string second, string third)
             {
                 if (first.CompareTo(second) > 0 && first.CompareTo(third) > 0)
                 {
@@ -22,7 +22,7 @@ namespace MaximumProblemUsingGenerics1
                 else
                 {
                     Console.WriteLine("All three having same number");
-                    return -1;
+                    return default;
                 }
             }
     }

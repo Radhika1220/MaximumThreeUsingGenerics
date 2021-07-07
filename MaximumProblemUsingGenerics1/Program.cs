@@ -11,7 +11,7 @@ namespace MaximumProblemUsingGenerics1
         static void Main(string[] args)
         {
             FindMaximumAmongThree obj = new FindMaximumAmongThree();
-            Console.WriteLine("Maximum value is : " + obj.FindMaximumFloat(70.2f, 45.3f, 12.5f));
+            Console.WriteLine("Maximum string value is : " + obj.FindMaximumString("Apple","Banana","Peach"));
            
             Console.ReadLine();
         }
