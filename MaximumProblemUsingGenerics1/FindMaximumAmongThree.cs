@@ -2,13 +2,21 @@
 using MaximumProblemUsingGenerics1;
 namespace MaximumProblemUsingGenerics1
 {
-   public  class FindMaximumAmongThree
+   public  class FindMaximumAmongThree<T> where T :IComparable
     {
+        public T first, second, third;
+     public FindMaximumAmongThree(T first, T second, T third)
+        {
+            this.first = first;
+            this.second = second;
+            this.third = third;
+        }
+
        
-            public string FindMaximumString(string first, string second, string third)
+            public static T FindMaximum(T first, T second, T third)
             {
                 if (first.CompareTo(second) > 0 && first.CompareTo(third) > 0)
-                {
+                 { 
                     return first;
                 }
                 else if (second.CompareTo(first) > 0 && second.CompareTo(third) > 0)
@@ -25,5 +33,10 @@ namespace MaximumProblemUsingGenerics1
                     return default;
                 }
             }
+        public T TestMaximum()
+        {
+            T max = FindMaximumAmongThree<T>.FindMaximum(this.first, this.second, this.third);
+            return max;
+        }
     }
 }

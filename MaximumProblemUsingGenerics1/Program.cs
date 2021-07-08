@@ -10,10 +10,7 @@ namespace MaximumProblemUsingGenerics1
     {
         static void Main(string[] args)
         {
-            FindMaximumAmongThree obj = new FindMaximumAmongThree();
-            Console.WriteLine("Maximum string value is : " + obj.FindMaximumString("Apple","Banana","Peach"));
-           
-            Console.ReadLine();
+            Console.WriteLine("Welcome to Generics and Unit testing Problem!!!");
         }
     }
 }
