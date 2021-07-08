@@ -26,6 +26,10 @@ namespace Generics_UnitTesting
             T maxValue = this.MaximumValueFunction(arrayList);
             return maxValue;
         }
-
+        public void PrintGreatestValue()
+        {
+            var max = MaxMethod();
+            Console.WriteLine("Maximum value is: {0}", max);
+        }
     }
 }
