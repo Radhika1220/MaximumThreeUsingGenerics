@@ -1,7 +1,0 @@
-C:\Users\Radhika\source\repos\MaximumProblemUsingGenerics1\MaximumProblemUsingGenerics1\bin\Debug\MaximumProblemUsingGenerics1.exe.config
-C:\Users\Radhika\source\repos\MaximumProblemUsingGenerics1\MaximumProblemUsingGenerics1\bin\Debug\MaximumProblemUsingGenerics1.exe
-C:\Users\Radhika\source\repos\MaximumProblemUsingGenerics1\MaximumProblemUsingGenerics1\bin\Debug\MaximumProblemUsingGenerics1.pdb
-C:\Users\Radhika\source\repos\MaximumProblemUsingGenerics1\MaximumProblemUsingGenerics1\obj\Debug\MaximumProblemUsingGenerics1.csproj.AssemblyReference.cache
-C:\Users\Radhika\source\repos\MaximumProblemUsingGenerics1\MaximumProblemUsingGenerics1\obj\Debug\MaximumProblemUsingGenerics1.csproj.CoreCompileInputs.cache
-C:\Users\Radhika\source\repos\MaximumProblemUsingGenerics1\MaximumProblemUsingGenerics1\obj\Debug\MaximumProblemUsingGenerics1.exe
-C:\Users\Radhika\source\repos\MaximumProblemUsingGenerics1\MaximumProblemUsingGenerics1\obj\Debug\MaximumProblemUsingGenerics1.pdb
